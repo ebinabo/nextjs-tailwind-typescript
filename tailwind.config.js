@@ -1,5 +1,6 @@
 module.exports = {
     purge: ["./src/**/*.{ts,tsx}"],
+    // mode: "jit", // use just in time compiler
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {},
